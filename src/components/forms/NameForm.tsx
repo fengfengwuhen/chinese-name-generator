@@ -18,7 +18,7 @@ interface NameFormProps {
 }
 
 export default function NameForm({ onSubmit, isLoading, onReset, showReset }: NameFormProps) {
-  const [showBirthDate, setShowBirthDate] = useState(false)
+  const [showBirthDate, setShowBirthDate] = useState(true)
   const [selectedMeanings, setSelectedMeanings] = useState<string[]>([])
 
   const {
